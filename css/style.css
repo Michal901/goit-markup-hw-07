@@ -39,7 +39,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hover-color);
-  margin-right: 297px;
 }
 
 /* .main-menu {
@@ -201,7 +200,7 @@ a.hover-menu-fst:focus {
 }
 .div-bouth-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .container {
   max-width: 480px;
