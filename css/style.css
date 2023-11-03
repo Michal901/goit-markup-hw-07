@@ -18,8 +18,8 @@
   --transition-bazier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 html {
-  min-width: 320px;
-  max-width: 480px;
+  /* min-width: 320px;
+  max-width: 480px; */
 }
 * {
   box-sizing: border-box;
