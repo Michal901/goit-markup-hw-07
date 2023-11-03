@@ -17,10 +17,6 @@
   --transition-duration: 250ms;
   --transition-bazier: cubic-bezier(0.4, 0, 0.2, 1);
 }
-html {
-  min-width: 320px;
-  max-width: 480px;
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,20 +35,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hover-color);
+  margin-right: 76px;
 }
-
-/* .main-menu {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-@media (max-width: 767px) {
-  .main-menu {
-    display: none;
-  }
-} */
 .logo:hover {
   color: var(--hover-color);
 }
@@ -122,10 +106,10 @@ a.hover-menu-fst:focus {
 .div-bouth-container {
   display: flex;
   justify-content: center;
+  gap: 332px;
 }
 .container {
-  max-width: 480px;
-  overflow: hidden;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -184,14 +168,11 @@ a.hover-menu-sec:focus {
   padding: 120px 0;
 }
 .footer-containers {
-  gap: 72px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
+  align-items: baseline;
 }
-.footer-cont {
-  text-align: center;
+.footer-container-one {
+  margin-right: 120px;
 }
 .footer-a {
   display: inline-block;
@@ -207,7 +188,9 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   width: 264px;
 }
-
+.footer-form {
+  margin-left: 80px;
+}
 .footer-sec-p {
   font-weight: 500;
   font-size: var(--custom-p-font-size);
@@ -255,15 +238,10 @@ a.hover-menu-sec:focus {
 
 .footer-form-a {
   display: flex;
-  flex-direction: column;
   gap: 24px;
-  align-items: center;
-}
-.footer-form-label {
-  width: 90vw;
 }
 .footer-form-input {
-  width: 100%;
+  width: 264px;
   height: 40px;
   border: 1px solid var(--background-color);
   background-color: transparent;
@@ -274,6 +252,7 @@ a.hover-menu-sec:focus {
   padding-left: 16px;
   border-radius: 4px;
   outline: none;
+  margin-right: 24px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-form-btn {
@@ -312,13 +291,14 @@ a.hover-menu-sec:focus {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office1.jpg);
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
 }
 .h-one {
-  font-size: 36px;
+  font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -355,11 +335,6 @@ a.hover-menu-sec:focus {
 /* SECOND SECTION */
 .second-section {
   padding: 120px 0;
-  display: flex;
-}
-
-.second-section .icon-svg {
-  display: none;
 }
 .icon-svg {
   display: flex;
@@ -377,25 +352,20 @@ a.hover-menu-sec:focus {
 .portfo-section-ul {
   display: flex;
   gap: 24px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
 }
 .sec-section-li {
-  width: 100%;
+  width: calc((100% - 72px) / 4);
 }
 .sec-section-h {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--custom-link-color);
   margin-bottom: 8px;
 }
 
 .sec-section-p {
-  text-align: center;
   font-size: var(--custom-p-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -407,7 +377,6 @@ a.hover-menu-sec:focus {
 /* THIRD SECTION */
 .third-section {
   padding: 0 0 120px 0;
-  display: none;
 }
 
 .third-section-li {
@@ -447,7 +416,6 @@ a.hover-menu-sec:focus {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  width: 264px;
 }
 .fourth-section-li-h {
   font-weight: 500;
@@ -502,11 +470,6 @@ a.hover-menu-sec:focus {
 .fifth-section {
   padding: 120px 0;
 }
-.fifth-section-cont {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .fifth-section-h {
   font-size: var(--custom-h-font-size);
   line-height: 1.11;
@@ -516,16 +479,12 @@ a.hover-menu-sec:focus {
 }
 .fifth-section-ul {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   list-style: none;
 }
 .fifth-section-li {
-  width: 100%;
+  width: calc((100% - 120px) / 6);
   height: 88px;
-  flex: 0 0 calc(50% - 12px);
-  text-align: center;
-  overflow: visible;
 }
 .fifth-section-a {
   width: 100%;
