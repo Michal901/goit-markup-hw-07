@@ -132,7 +132,6 @@ a.hover-menu-fst:focus {
   background-color: transparent;
   cursor: pointer;
   border: none;
-  border-radius: 50%;
   outline: none;
 }
 .menu-toggle {
@@ -204,8 +203,14 @@ a.hover-menu-fst:focus {
   color: #000000;
   text-decoration: none;
 }
+.mobile-menu-a:hover {
+  color: var(--button-menu-color);
+}
+.mobile-menu-a:focus {
+  color: var(--button-menu-color);
+}
 .mobile-menu-socials {
-  display: flex;
+  justify-content: space-between;
 }
 /* ============ Mobile MENU END ============ */
 .div-bouth-container {
