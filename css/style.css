@@ -61,7 +61,7 @@ body {
   color: var(--custom-link-color);
 }
 
-.link {
+.links {
   text-decoration: none;
   padding: 24px 0;
 }
