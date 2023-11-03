@@ -376,7 +376,7 @@ a.hover-menu-sec:focus {
 }
 .portfo-section-ul {
   display: flex;
-  gap: 24px;
+  gap: 72px;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-around;
@@ -396,6 +396,7 @@ a.hover-menu-sec:focus {
 
 .sec-section-p {
   text-align: center;
+  font-weight: 500;
   font-size: var(--custom-p-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
