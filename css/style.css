@@ -163,6 +163,9 @@ a.hover-menu-fst:focus {
 }
 
 .menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -196,7 +199,7 @@ a.hover-menu-fst:focus {
 .mobile-menu-a {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 60px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   display: block;
@@ -212,6 +215,31 @@ a.hover-menu-fst:focus {
 }
 .mobile-menu-socials {
   justify-content: space-between;
+}
+.mobile-menu-address {
+  display: flex;
+  flex-direction: column;
+}
+.mobile-menu-address-a {
+  text-decoration: none;
+  color: black;
+}
+.address-social-cont {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.mailto {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+}
+.tel {
+  color: var(--button-menu-color);
+  font-size: 36px;
+  font-weight: 700;
 }
 /* ============ Mobile MENU END ============ */
 .div-bouth-container {
