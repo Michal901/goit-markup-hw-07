@@ -17,9 +17,7 @@
   --transition-duration: 250ms;
   --transition-bazier: cubic-bezier(0.4, 0, 0.2, 1);
 }
-html {
-  max-width: 1440px;
-}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -1049,6 +1047,46 @@ ul.portfo-main-ul-frst {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 2000px;
+    min-width: 1300px;
+  }
+  .div-bouth-container {
+    flex-direction: row;
+  }
+  .fourth-section-li {
+    flex: 0 0 calc(16% - 12px);
+  }
+  .footer-form-label {
+    width: 264px;
+  }
+  .fifth-section-li {
+    width: 264px;
+    flex: 0 0 calc(16% - 12px);
+  }
+  .fifth-section-cont {
+    flex-direction: column;
+  }
+  .portfo-section-ul {
+    flex-wrap: nowrap;
+  }
+  .second-section .icon-svg {
+    display: block;
+  }
+  .sec-section-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--custom-link-color);
+    margin-bottom: 8px;
+  }
+  .third-section {
+    display: block;
+  }
+  .address-sec-ul {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    flex-direction: row;
+    gap: 40px;
   }
 }
