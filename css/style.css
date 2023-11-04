@@ -493,7 +493,7 @@ a.hover-menu-sec:focus {
   align-content: space-around;
 }
 .sec-section-li {
-  width: 100%;
+  width: calc((100% - 72px) / 4);
 }
 .sec-section-h {
   text-align: center;
