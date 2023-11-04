@@ -1040,4 +1040,10 @@ ul.portfo-main-ul-frst {
     flex-direction: row;
     justify-content: center;
   }
+  .portfo-sec-li {
+    width: calc((100% - 48px) / 2);
+  }
+  .portfo-main-ul-sec {
+    justify-content: space-between;
+  }
 }
