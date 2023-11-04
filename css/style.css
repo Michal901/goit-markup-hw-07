@@ -1047,7 +1047,11 @@ ul.portfo-main-ul-frst {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1300px;
+    max-width: 1440px;
+  }
+  .header-container {
+    max-width: 1440px;
+    margin: 0 auto;
   }
   .div-bouth-container {
     flex-direction: row;
