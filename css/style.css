@@ -493,7 +493,7 @@ a.hover-menu-sec:focus {
   align-content: space-around;
 }
 .sec-section-li {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 }
 .sec-section-h {
   text-align: center;
@@ -1045,5 +1045,10 @@ ul.portfo-main-ul-frst {
   }
   .portfo-main-ul-sec {
     justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    min-width: 2000px;
   }
 }
