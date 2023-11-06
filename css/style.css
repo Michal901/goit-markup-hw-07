@@ -372,7 +372,7 @@ a.hover-menu-sec:focus {
   width: 90vw;
 }
 .footer-form-input {
-  width: 100%;
+  width: 82.5vw; /* 398px */
   height: 40px;
   border: 1px solid var(--background-color);
   background-color: transparent;
@@ -494,7 +494,6 @@ a.hover-menu-sec:focus {
   width: 100%;
 }
 .sec-section-h {
-  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -504,7 +503,6 @@ a.hover-menu-sec:focus {
 }
 
 .sec-section-p {
-  text-align: center;
   font-weight: 500;
   font-size: var(--custom-p-font-size);
   line-height: 1.5;
@@ -1038,6 +1036,9 @@ ul.portfo-main-ul-frst {
     flex-direction: row;
     justify-content: center;
   }
+  .footer-form-input {
+    width: 264px;
+  }
   .portfo-sec-li {
     width: calc((100% - 48px) / 2);
   }
@@ -1064,13 +1065,14 @@ ul.portfo-main-ul-frst {
   }
   .fifth-section-li {
     width: 264px;
-    flex: 0 0 calc(16% - 12px);
+    flex: 0 0 calc(16% - 13px);
   }
   .fifth-section-cont {
     flex-direction: column;
   }
   .portfo-section-ul {
     flex-wrap: nowrap;
+    gap: 24px;
   }
   .second-section .icon-svg {
     display: block;
