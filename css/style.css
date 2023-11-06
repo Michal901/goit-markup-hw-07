@@ -198,9 +198,6 @@ a.hover-menu-fst:focus {
 .mobile-menu-a:focus {
   color: var(--button-menu-color);
 }
-.mobile-menu-socials {
-  justify-content: space-between;
-}
 .mobile-menu-address {
   display: flex;
   flex-direction: column;
@@ -327,7 +324,7 @@ a.hover-menu-sec:focus {
 }
 .footer-cont-two-ul {
   display: flex;
-  gap: 16px;
+  gap: 56px;
   list-style: none;
 }
 .footer-cont-two-li {
@@ -500,6 +497,7 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   color: var(--custom-link-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .sec-section-p {
@@ -1044,6 +1042,9 @@ ul.portfo-main-ul-frst {
   }
   .portfo-main-ul-sec {
     justify-content: space-between;
+  }
+  .sec-section-h {
+    text-align: start;
   }
 }
 @media screen and (min-width: 1200px) {
