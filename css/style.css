@@ -290,11 +290,12 @@ a.hover-menu-sec:focus {
   padding: 120px 0;
 }
 .footer-containers {
-  gap: 72px;
+  row-gap: 72px;
+  column-gap: 24px;
   display: flex;
-  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
 }
 .footer-cont {
   text-align: center;
@@ -322,9 +323,12 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+ul.mobile-menu-gap {
+  gap: 56px;
+}
 .footer-cont-two-ul {
   display: flex;
-  gap: 56px;
+  gap: 16px;
   list-style: none;
 }
 .footer-cont-two-li {
@@ -365,11 +369,8 @@ a.hover-menu-sec:focus {
   gap: 24px;
   align-items: center;
 }
-.footer-form-label {
-  width: 90vw;
-}
 .footer-form-input {
-  width: 82.5vw; /* 398px */
+  width: 398px;
   height: 40px;
   border: 1px solid var(--background-color);
   background-color: transparent;
@@ -1021,18 +1022,20 @@ ul.portfo-main-ul-frst {
   .sec-section-li {
     width: calc((100% - 72px) / 2);
   }
+  .footer-form {
+    width: 496px;
+  }
   .footer-form-a {
     flex-direction: row;
   }
-  .footer-form-label {
-    width: 40vw;
-  }
+
   .footer-cont {
     text-align: start;
   }
   .footer-containers {
     flex-direction: row;
     justify-content: center;
+    align-items: unset;
   }
   .footer-form-input {
     width: 264px;
@@ -1049,7 +1052,8 @@ ul.portfo-main-ul-frst {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1440px;
+    max-width: 1200px;
+    overflow: visible;
   }
   .header-container {
     max-width: 1440px;
