@@ -980,7 +980,8 @@ ul.portfo-main-ul-frst {
 
 @media screen and (max-width: 480px) {
   .fifth-section-li {
-    flex: 50%;
+    flex: 0 70%;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
