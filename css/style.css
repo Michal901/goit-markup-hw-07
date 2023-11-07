@@ -998,6 +998,11 @@ ul.portfo-main-ul-frst {
   transition: background-color var(--transition-duration)
     var(--transition-bazier);
 }
+@media screen and (max-width: 400px) {
+  .footer-form-input {
+    width: 95vw;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
