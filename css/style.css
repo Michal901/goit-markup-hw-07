@@ -159,8 +159,7 @@ a.hover-menu-fst:focus {
   padding: 16px;
   background-color: #ffffff;
   z-index: 999;
-
-  transform: translateX(100%);
+  transform: translateX(150%);
   transition: transform 250ms ease-in-out;
 }
 
