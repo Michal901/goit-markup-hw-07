@@ -950,7 +950,7 @@ ul.portfo-main-ul-frst {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--background-color);
   background-color: var(--hover-color);
   cursor: pointer;
   border-radius: 4px;
@@ -958,11 +958,26 @@ ul.portfo-main-ul-frst {
   transition: background-color var(--transition-duration)
     var(--transition-bazier);
 }
+@media screen and (max-width: 370px) {
+  .modal-window {
+    width: 95vw;
+  }
+  ul.mobile-menu-gap {
+    gap: 40px;
+  }
+  .tel {
+    font-size: 28px;
+  }
+}
 @media screen and (max-width: 400px) {
   .footer-form-input {
     width: 95vw;
   }
+  .modal-window {
+    width: 95vw;
+  }
 }
+
 @media screen and (max-width: 480px) {
   .fifth-section-li {
     flex: 50%;
@@ -972,7 +987,6 @@ ul.portfo-main-ul-frst {
   .container {
     min-width: 768px;
   }
-
   .address-header {
     display: contents;
   }
@@ -1065,7 +1079,7 @@ ul.portfo-main-ul-frst {
   }
   .sec-section-h {
     font-weight: 500;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--custom-link-color);
