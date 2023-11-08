@@ -1103,4 +1103,12 @@ ul.portfo-main-ul-frst {
   .portfo-main-ul-sec {
     justify-content: center;
   }
+  .footer-form {
+    width: 455px;
+  }
+  .footer-containers {
+    width: 1158px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
 }
