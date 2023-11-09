@@ -252,6 +252,7 @@ a.hover-menu-fst:focus {
   color: var(--ocean-color);
 }
 .link-active::after {
+  display: none;
   content: "";
   position: absolute;
   left: 0;
@@ -998,6 +999,9 @@ ul.portfo-main-ul-frst {
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
+  }
+  .link-active::after {
+    display: block;
   }
   .address-header {
     display: contents;
