@@ -61,6 +61,7 @@ body {
 }
 img {
   display: block;
+  width: 100%;
 }
 .visually-hidden {
   position: absolute;
@@ -437,7 +438,7 @@ ul.mobile-menu-gap {
   color: var(--white-color);
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  padding-bottom: 72px;
 }
 .first-section-button {
   background-color: var(--iris-color);
@@ -620,7 +621,7 @@ ul.mobile-menu-gap {
   list-style: none;
 }
 .fifth-section-li {
-  width: 190;
+  width: 190px;
   height: 88px;
   text-align: center;
   overflow: visible;
@@ -713,7 +714,7 @@ ul.portfo-main-ul-frst {
   row-gap: 48px;
 }
 .portfo-sec-li {
-  width: 360px;
+  width: 396px;
 }
 .portfo-sec-img-container {
   position: relative;
@@ -972,6 +973,10 @@ ul.portfo-main-ul-frst {
   .tel {
     font-size: 28px;
   }
+  .fifth-section-li {
+    width: 260px;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 400px) {
   .footer-form-input {
@@ -981,7 +986,6 @@ ul.portfo-main-ul-frst {
     width: 95vw;
   }
 }
-
 @media screen and (max-width: 480px) {
   .fifth-section-li {
     flex: 0 70%;
@@ -991,6 +995,7 @@ ul.portfo-main-ul-frst {
     font-size: 36px;
     line-height: 40px;
     max-width: 320px;
+    padding-bottom: 72px;
   }
   .second-section {
     padding: 96px 0;
@@ -1019,6 +1024,9 @@ ul.portfo-main-ul-frst {
   }
   .main-menu {
     margin-left: 120px;
+  }
+  .h-one {
+    padding-bottom: 36px;
   }
   .fifth-section-li {
     width: 168px;
@@ -1062,7 +1070,7 @@ ul.portfo-main-ul-frst {
     width: 264px;
   }
   .portfo-sec-li {
-    width: calc((100% - 48px) / 2);
+    width: 356px;
   }
   .portfo-main-ul-sec {
     justify-content: space-between;
@@ -1087,6 +1095,9 @@ ul.portfo-main-ul-frst {
     max-width: 1440px;
     margin: 0 auto;
     padding: 188px 0;
+  }
+  .h-one {
+    padding-bottom: 48px;
   }
   .second-section {
     padding: 120px 0;
