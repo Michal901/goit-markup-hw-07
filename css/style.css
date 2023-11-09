@@ -1067,10 +1067,14 @@ ul.portfo-main-ul-frst {
     text-align: start;
   }
 }
+@media screen and (max-height: 660px) {
+  .address-social-cont {
+    height: 45vh;
+  }
+}
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
-    overflow: visible;
   }
   .main-menu {
     margin-left: 76px;
@@ -1082,6 +1086,12 @@ ul.portfo-main-ul-frst {
   }
   .second-section {
     padding: 120px 0;
+  }
+  .sec-section-h {
+    font-size: 20px;
+  }
+  .sec-section-li {
+    width: 264px;
   }
   .div-bouth-container {
     flex-direction: row;
