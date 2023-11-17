@@ -61,7 +61,6 @@ body {
 }
 img {
   display: block;
-  width: 100%;
 }
 .visually-hidden {
   position: absolute;
